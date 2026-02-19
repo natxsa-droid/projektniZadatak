@@ -1,10 +1,34 @@
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
-        Krug krug1 = new Krug("Naziv kruga", 10);
-        System.out.println(krug1.getNaziv());
+        Scanner scanner = new Scanner(System.in);
 
-        Trokut trokut1 = new Trokut("Naziv trokuta", 7,8,9);
-        System.out.println(trokut1.getNaziv());
+        System.out.println("Unesi naziv kruga:");
+        String nazivKruga = scanner.nextLine();
+
+        System.out.println("Unesi radijus :");
+        double unesiRadijus = scanner.nextDouble();
+
+        Krug krug1 = new Krug(nazivKruga, unesiRadijus);
+        System.out.println(krug1.getNaziv());
+        System.out.println(krug1.getRadius());
+
+
+        System.out.println("Naziv trokuta:");
+        scanner.nextLine();
+        String nazivTrokuta = scanner.nextLine();
+        System.out.println("Unesi stranicu a:");
+        double a = scanner.nextDouble();
+        System.out.println("Unesi stranicu b:");
+        double b = scanner.nextDouble();
+        System.out.println("Unesi stranicu c:");
+        double c = scanner.nextDouble();
+
+        System.out.println("Unesi stranicu a:");
+        double a = scanner.nextDouble();
+        System.out.println("Unesi stranicu b:");
+        double b = scanner.nextDouble();
+
 
         Pravokutnik pravokutnik1 = new Pravokutnik("Naziv pravokutnika", 6, 7);
         System.out.println(pravokutnik1.getNaziv());

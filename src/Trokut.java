@@ -6,9 +6,13 @@ public class Trokut {
         this.naziv = naziv;
         this.a = a;
         this.b = b;
-        this.c = c;
+        this.c = c; }
 
-    }
+    public String getNaziv() {
+        return naziv; }
+    public void setNaziv(String naziv) {
+        this.naziv = naziv; }
+
 
 
     }

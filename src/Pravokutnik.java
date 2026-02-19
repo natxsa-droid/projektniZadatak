@@ -5,10 +5,15 @@ public class Pravokutnik {
     public Pravokutnik(String naziv, double a, double b){
         this.naziv = naziv;
         this.a = a;
-        this.b = b;
+        this.b = b; }
 
+    public String getNaziv(){
+    return naziv; }
 
+    public double getA() {
+        return a; }
+
+    public double getB() {
+        return b;
     }
-
-
 }

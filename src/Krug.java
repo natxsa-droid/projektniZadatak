@@ -10,6 +10,12 @@ public class Krug {
         return this.naziv; }
 
     public double getRadius() {
-        return radius;
+        return radius; }
+
+    public void setNaziv(String naziv){
+        this.naziv = naziv; }
+
+    public void getRadius(double radius) {
+        this.radius = radius;
     }
 }

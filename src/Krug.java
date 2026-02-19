@@ -4,8 +4,12 @@ public class Krug {
 
     public Krug(String naziv, double radius) {
         this.naziv = naziv;
-        this.radius = radius;
+        this.radius = radius; }
 
+    public String getNaziv(){
+        return this.naziv; }
 
+    public double getRadius() {
+        return radius;
     }
 }

@@ -15,7 +15,7 @@ public class Krug {
     public void setNaziv(String naziv){
         this.naziv = naziv; }
 
-    public void getRadius(double radius) {
+    public void setRadius(double radius) {
         this.radius = radius;
     }
 }

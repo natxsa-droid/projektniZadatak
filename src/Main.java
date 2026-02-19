@@ -17,16 +17,16 @@ public class Main {
         System.out.println("Naziv trokuta:");
         scanner.nextLine();
         String nazivTrokuta = scanner.nextLine();
-        System.out.println("Unesi stranicu a:");
+        System.out.println("Unesi stranicu a za trokut:");
         double a = scanner.nextDouble();
-        System.out.println("Unesi stranicu b:");
+        System.out.println("Unesi stranicu b za trokut:");
         double b = scanner.nextDouble();
-        System.out.println("Unesi stranicu c:");
+        System.out.println("Unesi stranicu c za trokut:");
         double c = scanner.nextDouble();
 
-        System.out.println("Unesi stranicu a:");
+        System.out.println("Unesi stranicu a za pravokutnik:");
         double a2 = scanner.nextDouble();
-        System.out.println("Unesi stranicu b:");
+        System.out.println("Unesi stranicu b za pravokutnik:");
         double b2 = scanner.nextDouble();
 
 

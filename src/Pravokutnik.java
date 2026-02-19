@@ -2,4 +2,13 @@ public class Pravokutnik {
     private String naziv;
     private double a, b;
 
+    public Pravokutnik(String naziv, double a, double b){
+        this.naziv = naziv;
+        this.a = a;
+        this.b = b;
+
+
+    }
+
+
 }

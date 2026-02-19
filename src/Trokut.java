@@ -17,7 +17,7 @@ public class Trokut {
         return a; }
 
     public void setA(double a) {
-        this.a = a;
-    }
+        this.a = a; }
+
 }
 

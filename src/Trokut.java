@@ -13,7 +13,11 @@ public class Trokut {
     public void setNaziv(String naziv) {
         this.naziv = naziv; }
 
+    public double getA() {
+        return a; }
 
-
+    public void setA(double a) {
+        this.a = a;
     }
+}
 

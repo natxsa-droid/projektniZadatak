@@ -25,9 +25,9 @@ public class Main {
         double c = scanner.nextDouble();
 
         System.out.println("Unesi stranicu a:");
-        double a = scanner.nextDouble();
+        double a2 = scanner.nextDouble();
         System.out.println("Unesi stranicu b:");
-        double b = scanner.nextDouble();
+        double b2 = scanner.nextDouble();
 
 
         Pravokutnik pravokutnik1 = new Pravokutnik("Naziv pravokutnika", 6, 7);

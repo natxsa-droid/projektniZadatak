@@ -6,6 +6,9 @@ public class Main {
         Trokut trokut1 = new Trokut("Naziv trokuta", 7,8,9);
         System.out.println(trokut1.getNaziv());
 
+        Pravokutnik pravokutnik1 = new Pravokutnik("Naziv pravokutnika", 6, 7);
+        System.out.println(pravokutnik1.getNaziv());
+
 
     }
 

@@ -1,4 +1,4 @@
-public class Krug {
+public class Krug implements geometrijskiLik {
     private String naziv;
     private double radius;
 

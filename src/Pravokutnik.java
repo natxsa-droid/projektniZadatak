@@ -1,4 +1,4 @@
-public class Pravokutnik {
+public class Pravokutnik  implements geometrijskiLik {
     private String naziv;
     private double a, b;
 

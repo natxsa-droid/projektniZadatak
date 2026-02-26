@@ -1,4 +1,4 @@
-public class Trokut {
+public class Trokut implements geometrijskiLik  {
     private String naziv;
     private double a, b, c;
 

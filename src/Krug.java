@@ -12,6 +12,14 @@ public class Krug {
     public double getRadius() {
         return radius; }
 
+        public double getPovrsina() {
+            return radius * radius * Math.PI;
+
+            @Override
+            public String toString() {
+                return "Lik: " + naziv + ", Radijus: " + radius + ", Površina: " + getPovrsina();
+    }
+
     public void setNaziv(String naziv){
         this.naziv = naziv; }
 

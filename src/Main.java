@@ -45,12 +45,11 @@ public class Main {
         for (geometrijskiLik lik : listaLikova) {
             System.out.println(lik); }
 
-            listaLikova.sort(Comparator.comparingDouble(geometrijskiLik::getPovrsina));
+        listaLikova.sort(Comparator.comparingDouble(geometrijskiLik::getPovrsina));
 
-            System.out.println("\n Podjela po površini:");
-            for (geometrijskiLik lik : listaLikova) {
-                System.out.println(lik);
+        System.out.println("\n Podjela po površini:");
+        for (geometrijskiLik lik : listaLikova) {
+            System.out.println(lik);
         }
     }
 }
-

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Object> listaLikova = new ArrayList<>();
 
@@ -14,6 +14,7 @@ public class Main {
         Krug krug1 = new Krug(nazivKruga, unesiRadijus);
         System.out.println(krug1.getNaziv());
         System.out.println(krug1.getRadius());
+        listaLikova.add(krug1);
 
 
         System.out.println("Naziv trokuta:");
@@ -26,6 +27,8 @@ public class Main {
         System.out.println("Unesi stranicu c za trokut:");
         double c = scanner.nextDouble();
         Trokut trokut1 = new Trokut(nazivTrokuta, a, b, c);
+        listaLikova.add(trokut1);
+
 
         System.out.println("Unesi naziv pravokutnika:");
         scanner.nextLine();
@@ -37,7 +40,13 @@ public class Main {
         double b2 = scanner.nextDouble();
 
         Pravokutnik pravokutnik1 = new Pravokutnik(nazivP, a2, b2);
+        listaLikova.add(pravokutnik1);
         System.out.println("Naziv pravokutnika je: " + pravokutnik1.getNaziv());
         System.out.println(pravokutnik1);
+
+        System.out.println("\n--- POPIS SVIH UNESENIH LIKOVA ---");
+        for (Object lik : listaLikova) {
+            System.out.println(lik);
+        }
     }
 }

@@ -19,5 +19,17 @@ public class Trokut {
     public void setA(double a) {
         this.a = a; }
 
+    public double getPovrsina() {
+        double s = (a + b + c) / 2; // Poluopseg
+        return Math.sqrt(s * (s - a) * (s - b) * (s - c)); }
+
+    @Override
+    public String toString() {
+        return "Lik: " + naziv + " (Trokut), Stranice: " + a + ", " + b + ", " + c +
+                ", Površina: " + String.format("%.2f", getPovrsina());
+    }
+
+
+
 }
 

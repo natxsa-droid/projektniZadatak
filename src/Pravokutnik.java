@@ -16,4 +16,13 @@ public class Pravokutnik {
     public double getB() {
         return b;
     }
+
+    public double getPovrsina() {
+        return a * b;
+    }
+
+    @Override
+    public String toString() {
+        return "Lik: " + naziv + " (Pravokutnik), Stranice: " + a + ", " + b +
+                ", Površina: " + String.format("%.2f", getPovrsina());
 }

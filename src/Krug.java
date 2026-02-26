@@ -13,7 +13,7 @@ public class Krug {
         return radius; }
 
         public double getPovrsina() {
-            return radius * radius * Math.PI;
+            return radius * radius * Math.PI; }
 
             @Override
             public String toString() {
